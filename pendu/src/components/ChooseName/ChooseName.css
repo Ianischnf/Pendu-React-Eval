@@ -1,0 +1,29 @@
+body{
+    background-image: url('/src/assets/background.jpg');
+    background-size: 160vh;
+}
+
+.Container_Form{
+    background-color:  #e8daef ;
+    width: 80vh;
+    height:40vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30vh;
+    border-radius: 3vh;
+    box-shadow: 2px 2px 2px  #d2b4de ;
+    color:  #935116  ;
+}
+
+.Contain_Title{
+    /* background-color:red; */
+}
+
+.Contain_button{
+    /* background-color: red; */
+    width: 30vh;
+    height: 10vh;
+    display:flex;
+    justify-content:center;
+}
