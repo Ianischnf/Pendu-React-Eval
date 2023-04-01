@@ -20,9 +20,12 @@ const Hangman = ({ lives }) => {
   ];
 
   return (
-    <div className="Container_Hangman">
-      <img src={images[lives]} alt={`Hangman - ${lives} vies restantes`} />
+    <div className="Container_Hangame">
+       <div className="Hangman">
+        <img src={images[lives]} alt={`Hangman - ${lives} vies restantes`} />
+      </div>
     </div>
+   
   );
 };
 

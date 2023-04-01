@@ -1,4 +1,15 @@
-.Container_Hangman{
+.Container_Hangame {
+    /* background-color: blue; */
     display: flex;
     justify-content: center;
 }
+
+.Hangman{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+    background-color: red;
+    background-image: url('../../assets/fond.png');
+}
+

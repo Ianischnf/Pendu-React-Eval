@@ -32,3 +32,61 @@ button {
     margin: 17px;
     font-family: inherit;
 }
+
+.video-game-button {
+  text-shadow: 1px 1px pink, -1px -1px maroon;
+  line-height: 1.5em;
+  text-align: center;
+  display: inline-block;
+  width: 1.5em;
+  border-radius: 0.75em;
+  background-color: red;
+  -o-box-shadow: 0 .2em maroon;
+  box-shadow: 0 0.2em maroon;
+  color: white;
+  margin: 5px;
+  background-color: red;
+  background-image: linear-gradient(left top, pink 3%, red 22%, maroon 99%);
+  cursor: pointer;
+  /* padding-left: 9px; */
+  text-align: center;
+  height: -24vh;
+  /* height: 3vh; */
+  margin-right: 10vh;
+  width: 8vh;
+}
+
+.start-btn{
+    text-align: center;
+	display: inline-block;
+	margin:5px;
+    font-weight: bold;
+    padding: 10px 0 10px 10px ;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+    box-shadow: 0 .2em gray; 
+    cursor: pointer;
+
+}
+.video-game-button:active, .start-btn:active {
+	box-shadow: none;
+	position: relative;
+	top: .2em;
+}
+
+.Contain_Alphabet {
+  /* background-color: blue; */
+  display: flex;
+  margin-top: 4vh;
+  flex-direction: row-reverse;
+}
+
+.Contain_Letters{
+  /* background-color:yellow; */
+  width:90%;
+}

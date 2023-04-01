@@ -12,14 +12,20 @@ const Alphabet = () => {
   };
 
   return (
-    <div className="test">
-      {alphabet.map((letter, index) => (
-         <button type="button" class="simple" key={index} onClick={() => handleLetterSelect(letter)} >
+    <div className="Contain_Alphabet">
+      <div className="Contain_Letters">
+           {alphabet.map((letter, index) => (
+         <span class='video-game-button'  key={index} onClick={() => handleLetterSelect(letter)}>
           {letter}
-         </button>
+         </span>
       ))}
+      </div>
+     
     </div>
   );
 };
 
 export default Alphabet;
+{/* <button type="button" class="simple" key={index} onClick={() => handleLetterSelect(letter)} >
+          {letter}
+         </button> */}
