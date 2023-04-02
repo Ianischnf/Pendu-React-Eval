@@ -1,10 +1,10 @@
-const routes = [
-    {
-        'name': 'Pseudo',
-        'path': '/ChooseName'
-    },
-    {
-        'name': 'Game',
-        'path': '/Game'
-    },
- ];
+// const routes = [
+//     {
+//         'name': 'Pseudo',
+//         'path': '/ChooseName'
+//     },
+//     {
+//         'name': 'Game',
+//         'path': '/Game'
+//     },
+//  ];
