@@ -6,12 +6,16 @@ const Word = () => {
   const { word, guessedLetters } = useContext(GameContext);
 
   return (
-    <div className="word">
-      {word.split("").map((letter, index) => (
-        <span className="letter" key={index}>
-          {guessedLetters.includes(letter) ? letter : "_ "}
-        </span>
-      ))}
+    <div className="Global_Contain_Word">
+      <div className="Contain_Word">
+        <div className="Word">
+          {word.split("").map((letter, index) => (
+            <span className="letter" key={index}>
+              {guessedLetters.includes(letter) ? letter : "_ "}
+            </span>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

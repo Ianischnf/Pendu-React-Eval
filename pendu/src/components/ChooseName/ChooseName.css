@@ -1,6 +1,10 @@
-body{
+.formulaire{
+    min-height:100vh;
+    background-color:red;
+    min-height: 100vh;
+    display: flex;
     background-image: url('/src/assets/background.jpg');
-    background-size: 160vh;
+    background-size:165vh;
 }
 
 .Container_Form{
@@ -10,12 +14,11 @@ body{
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 30vh;
+    /* margin-top: 30vh; */
     border-radius: 3vh;
-    box-shadow: 2px 2px 2px  #d2b4de ;
-    color:  #935116  ;
+    box-shadow: 2px 2px 2px #864913;
+    color: #bc671b;  ;
 }
-
 .Contain_Title{
     /* background-color:red; */
 }
@@ -26,4 +29,25 @@ body{
     height: 10vh;
     display:flex;
     justify-content:center;
+}
+
+button {
+    margin: 17px;
+    font-family: inherit;
+    background-color: #bc671b;
+    border: none;
+    border-radius: 4vh;
+    height: 6vh;
+    width: 30vh;
+    cursor: pointer;
+    color: white;
+  }
+
+button:hover{
+    background-color:  #9b5516 ;
+}
+
+input[type=text]{
+    border: none;
+    border-radius: 3rem;
 }

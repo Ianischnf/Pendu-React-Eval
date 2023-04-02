@@ -1,5 +1,16 @@
-.word{
+
+.Global_Contain_Word{
     display:flex;
     justify-content: center;
-    margin-bottom: 3vh;;
+    padding: 1vh;
+    /* background-color:red; */
+}
+
+.Contain_Word{
+    background-color:#859DFE;
+    height:5vh;
+    /* width: 20vh; */
+    border-radius: 6px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px #5473F5;
 }

@@ -12,16 +12,19 @@ const Alphabet = () => {
   };
 
   return (
-    <div className="Contain_Alphabet">
-      <div className="Contain_Letters">
-           {alphabet.map((letter, index) => (
-         <span class='video-game-button'  key={index} onClick={() => handleLetterSelect(letter)}>
-          {letter}
-         </span>
-      ))}
+    <div className="Contain_Global">
+      <div className="Contain_Alphabet">
+        <div className="Contain_Letters">
+          {alphabet.map((letter, index) => (
+            <span class='video-game-button' key={index} onClick={() => handleLetterSelect(letter)}>
+              {letter}
+            </span>
+          ))}
+        </div>
+
       </div>
-     
     </div>
+
   );
 };
 

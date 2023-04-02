@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import './ChooseName.css';
+// import './Game';
 
 function ChooseName() {
 
@@ -14,11 +15,12 @@ function ChooseName() {
 
 
     return (
-        <div className="formular">
+
+        <div className="formulaire">
             <div className="Container_Form">
                 <form>
                     <div className="Contain_Title">
-                        <h1>Hangman Game : </h1>
+                        <h1>Pendu Game</h1>
                         <h4>Jeu développé par Ianis CHENNAF</h4>
                     </div>
 
@@ -28,20 +30,12 @@ function ChooseName() {
                     </div>
 
                     <div className="Contain_button">
-                    <Link to="" state={{ pseudo: fpseudo,}}>
+                    <Link to="/Game" state={{ pseudo: fpseudo,}}>
                         <button type="submit" id="play">Play !</button>
                     </Link>
                     </div>
                     
                 </form>
-
-                    {/* condition : si un des inputs est vide, le jeu ne commence pas, géré via les Links (qui en gros sont des routes plus ou moins) */}
-                   
-                        
-                    
-
-              
-
             </div>
 
         </div>

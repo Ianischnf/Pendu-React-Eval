@@ -1,4 +1,6 @@
-
+body{
+  background-color: #E4E6EF;
+}
 
 button {
     margin: 50px;
@@ -79,11 +81,21 @@ button {
 	top: .2em;
 }
 
+.Contain_Global {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+
 .Contain_Alphabet {
-  /* background-color: blue; */
+  background-color: #859DFE;
   display: flex;
   margin-top: 4vh;
+  width: 150vh;
   flex-direction: row-reverse;
+  padding: 4vh;
+  border-radius: 4vh;
+  box-shadow: 4px 3px 5px #8578e4;
 }
 
 .Contain_Letters{
