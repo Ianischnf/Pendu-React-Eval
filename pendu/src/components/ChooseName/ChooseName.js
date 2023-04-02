@@ -1,18 +1,15 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import './ChooseName.css';
 // import './Game';
+import './ChooseName.css'
 
 function ChooseName() {
 
-    //Variables pour les paramètres du jeu
     let [fpseudo, setFpseudo] = useState("");
 
-    //Functions pour gérer les cas de changemens lors de la saisies des valeurs
     let handleChangeFpseudo = (e) => {
         setFpseudo(e.target.value);
     };
-
 
     return (
 
@@ -26,12 +23,12 @@ function ChooseName() {
 
                     <div className="Contain_input">
                         <label> Pseudo : </label>
-                        <input type="text"></input>  
+                        <input type="text" value={fpseudo} onChange={handleChangeFpseudo} ></input>  
                     </div>
 
                     <div className="Contain_button">
-                    <Link to="/Game" state={{ pseudo: fpseudo,}}>
-                        <button type="submit" id="play">Play !</button>
+                    <Link to="/Game" state={{ pseudo: fpseudo}}>
+                        <button type="submit" id="play" >Play !</button>
                     </Link>
                     </div>
                     
