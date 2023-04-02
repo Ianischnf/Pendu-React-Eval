@@ -20,15 +20,24 @@
     color: #bc671b;  ;
 }
 .Contain_Title{
-    /* background-color:red; */
+        display: flex;
+        flex-direction: column;
+        align-content: stretch;
+        align-items: center;
 }
 
-.Contain_button{
+.Contain_input {
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.Contain_button {
     /* background-color: red; */
-    width: 30vh;
     height: 10vh;
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
 }
 
 button {
@@ -38,7 +47,7 @@ button {
     border: none;
     border-radius: 4vh;
     height: 6vh;
-    width: 30vh;
+    width: 33vh;
     cursor: pointer;
     color: white;
   }

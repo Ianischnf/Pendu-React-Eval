@@ -17,19 +17,23 @@ function ChooseName() {
             <div className="Container_Form">
                 <form>
                     <div className="Contain_Title">
-                        <h1>Pendu Game</h1>
-                        <h4>Jeu développé par Ianis CHENNAF</h4>
+                        <h1>Hangman Game</h1>
+                        <h4>game developed By Ianis CHENNAF </h4>
                     </div>
 
                     <div className="Contain_input">
+                        <div className="Input">
                         <label> Pseudo : </label>
                         <input type="text" value={fpseudo} onChange={handleChangeFpseudo} ></input>  
+                        </div> 
                     </div>
 
                     <div className="Contain_button">
-                    <Link to="/Game" state={{ pseudo: fpseudo}}>
-                        <button type="submit" id="play" >Play !</button>
-                    </Link>
+                        <div className="Button_item">
+                            <Link to="/Game" state={{ pseudo: fpseudo}}>
+                                <button type="submit" id="play" >Play !</button>
+                            </Link>
+                        </div>
                     </div>
                     
                 </form>

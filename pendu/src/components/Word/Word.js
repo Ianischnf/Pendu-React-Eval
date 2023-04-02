@@ -13,7 +13,7 @@ const Word = () => {
     <div className="Global_Contain_Word">
       <div className="left_item">
         <div className="item_right">
-          <p>Hello {pseudo}</p>
+          <p>Welcome to my game : <strong>{pseudo}</strong> !</p>
         </div>
       </div>
       <div className="right_item">
